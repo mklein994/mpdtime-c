@@ -1,4 +1,4 @@
-# Makefile for vgraph
+# Makefile for mpdtime
 
 TARGET = mpdtimeratio
 LIBS = "-lmpdclient"
