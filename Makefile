@@ -2,7 +2,7 @@
 
 TARGET = mpdtimeratio
 LIBS = "-lmpdclient"
-CC = gcc
+CC ?= gcc
 CFLAGS = -Wall -Wextra -Werror -pedantic
 CFLAGS += -march=native -O2 -fstack-protector-strong
 
